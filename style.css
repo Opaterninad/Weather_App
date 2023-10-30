@@ -92,6 +92,10 @@ p {
   color: #fafbfc;
 }
 
+a {
+  color: #1f1f1f;
+}
+
 @media (max-width: 768px) {
   .foot {
     padding-left: 45%;
