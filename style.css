@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ebebeb;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Londrina Solid', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+.contenedor {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2%;
+  border-radius: 3%;
+  text-align: center;
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  margin-top: 3%;
+}
+
+.foot {
+  font-size: 12px;
+  padding-left: 70%;
+  color: #e96e50;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+input {
+  border-radius: 8px;
+  border-style: none;
+  background-color: #f3f3f3;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #F05514;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #e96e50;
+  cursor: pointer;
+}
+
+#datosClima {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.icof {
+  display: block;
+}
+
+.icons {
+  font-size: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #032e52;
+}
+
+.iconyou {
+  color: #ff0000;
+}
+
+.iconlink {
+  color: #00a0dc;
+}
+
+.icongit {
+  color: #fafbfc;
+}
+
+@media (max-width: 768px) {
+  .foot {
+    padding-left: 45%;
+  }
+}
