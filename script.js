@@ -45,7 +45,7 @@ let difKelvin = 273.15;
     iconoInfo.src = `https://openweathermap.org/img/wn/${icono}@2x.png`
 
     const descripcionInfo = document.createElement('p')
-    descripcionInfo.textContent = `the meteorological description is: ${descripcion}`
+    descripcionInfo.textContent = `La Descripción Metereológica es: ${descripcion}`
 
     divDatosClima.appendChild(ciudadTitulo)
     divDatosClima.appendChild(temperaturaInfo)
